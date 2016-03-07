@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eventbrite Coding Excercise</title>
+	<script src="angular.min.js"></script>
+ 	<script src="app.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div ng-app="eventbrite">
+    <div ng-controller="ctrl" class="">
+    	<input class="gameDimension" type="number" value="3" min="3" max="10"/>
+    	<button ng-click="newGameClick()" value="New Game">New Game</button>
+    	(enter the size of the grid you want to play on and click "New Game")
+        <!-- <tictactoe index="$index" tiles="tiles" dimension="dimension"></tictactoe>  -->
+    </div>
+</div>
+</body>
+</html>

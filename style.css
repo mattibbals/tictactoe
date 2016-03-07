@@ -1,0 +1,50 @@
+input.gametile {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float:left;
+    font-weight:bold;
+    font-size:40px;
+}
+.gametile.rowbegin {
+    clear:both;
+}
+.gametile.winner {
+	background-color: #00ff00;
+}
+div.gameboard {
+	float:left;
+	border:1px solid #0f0000;
+}
+div.gameboard3 {
+	height: 200px;
+	width: 250px;
+}
+div.gameboard4 {
+	height: 250px;
+	width: 300px;
+}
+div.gameboard5 {
+	height: 300px;
+	width: 350px;
+}
+div.gameboard6 {
+	height: 350px;
+	width: 400px;
+}
+div.gameboard7 {
+	height: 400px;
+	width: 450px;
+}
+div.gameboard8 {
+	height: 450px;
+	width: 500px;
+}
+div.gameboard9 {
+	height: 500px;
+	width: 550px;
+}
+div.gameboard10 {
+	height: 550px;
+	width: 600px;
+}
