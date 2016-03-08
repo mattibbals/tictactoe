@@ -1,8 +1,9 @@
 <div class="gameboard gameboard{{dimension}}">
 	<input 
 		ng-readonly="true"
-		ng-class="{gametile: true, rowbegin: (($index % dimension)==0), gametile: true, }" 
-		type="text" ng-repeat="tile in tiles track by $index" 
+		ng-class="{rowbegin: (($index % dimension)==0), gametile: true }" 
+		type="text" 
+		ng-repeat="tile in tiles track by $index" 
 		ng-model="tiles[$index]" 
 		title="{{$index}}"
 	/>
